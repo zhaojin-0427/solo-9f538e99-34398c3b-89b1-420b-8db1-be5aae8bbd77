@@ -1,0 +1,14 @@
+{
+  "total_pages": 3,
+  "start_page_a": 1,
+  "start_page_b": 2,
+  "durations": {"1": 1, "2": 1, "3": 3},
+  "shared": [
+    {"beat": 1, "pages": [1]},
+    {"beat": 2, "pages": [1, 3]}
+  ],
+  "routes": [
+    {"name": "repeat", "requirements": [{"beat": 1, "pages": [1]}]},
+    {"name": "coda", "requirements": [{"beat": 1, "pages": [1]}]}
+  ]
+}
